@@ -254,9 +254,9 @@ namespace Maze2
                     case Keys.L: start_Click(null, null); break;
                     case Keys.K: creatMap_Click(null, null); break;
                     case Keys.F:
-                        if (redOver) creatMap_Click(null, null); break;
+                        if (redOver) fresh_Click(null, null); creatMap_Click(null, null); start_Click(null, null); break;
                     case Keys.NumPad0:
-                        if (blueOver) creatMap_Click(null, null); break;
+                        if (blueOver) fresh_Click(null, null); creatMap_Click(null, null); start_Click(null, null); break;
                     case Keys.Q: redFresh_Click(null, null); break;
                     case Keys.OemQuestion: blueFresh_Click(null, null); break;
                     case Keys.E: redPlayer.Location = redHistory; break;

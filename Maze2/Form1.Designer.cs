@@ -88,7 +88,7 @@
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(982, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(982, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -101,7 +101,7 @@
             this.toolStripSeparator2,
             this.退出ToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 24);
             this.toolStripMenuItem1.Text = "更多";
             // 
             // 得分记录ToolStripMenuItem
@@ -139,6 +139,11 @@
             // mInput
             // 
             this.mInput.Location = new System.Drawing.Point(96, 36);
+            this.mInput.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.mInput.Minimum = new decimal(new int[] {
             5,
             0,
@@ -158,6 +163,11 @@
             // nInput
             // 
             this.nInput.Location = new System.Drawing.Point(96, 78);
+            this.nInput.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.nInput.Minimum = new decimal(new int[] {
             5,
             0,
@@ -219,7 +229,7 @@
             // 
             this.pxInput.Location = new System.Drawing.Point(96, 120);
             this.pxInput.Minimum = new decimal(new int[] {
-            5,
+            3,
             0,
             0,
             0});
@@ -514,6 +524,7 @@
             this.debug.Name = "debug";
             this.debug.Size = new System.Drawing.Size(432, 37);
             this.debug.TabIndex = 103;
+            this.debug.Visible = false;
             // 
             // label5
             // 
@@ -527,11 +538,10 @@
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Italic);
-            this.label9.Location = new System.Drawing.Point(315, 0);
+            this.label9.Location = new System.Drawing.Point(67, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(241, 37);
+            this.label9.Size = new System.Drawing.Size(915, 37);
             this.label9.TabIndex = 105;
-            this.label9.Text = "debug模式-按键情况：";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
@@ -539,11 +549,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.start);
             this.Controls.Add(this.debug);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.vInput);
-            this.Controls.Add(this.start);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.focusLock);
             this.Controls.Add(this.fresh);
