@@ -1,8 +1,8 @@
 # Maze2
 双人迷宫游戏 - 学校C#程序设计选修课大作业
-![开始](https://github.com/Dytchem/Maze2/1.png)
-![切换](https://github.com/Dytchem/Maze2/2.png)
-![记录](https://github.com/Dytchem/Maze2/3.png)
+![Image](1.png)
+![Image](2.png)
+![Image](3.png)
 
 # 快捷键用法
 
