@@ -1,8 +1,6 @@
 # Maze2
 双人迷宫游戏 - 学校C#程序设计选修课大作业
-![Image](1.png)
-![Image](2.png)
-![Image](3.png)
+<img src="1.png">
 
 # 快捷键用法
 
