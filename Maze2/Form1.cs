@@ -301,7 +301,7 @@ namespace Maze2
         private void 关于ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             start_Click(null, null);
-            MessageBox.Show("西安交通大学 全校通识选修课\nGNED100727 计算思维与程序设计02 (20222)\n教师：杨琦\n作者：2225015585 物试2202 黄得清\n2023年6月", "关于");
+            MessageBox.Show("西安交通大学 全校通识选修课\nGNED100727 计算思维与程序设计02 (20222)\n教师：XXX\n作者：XXX\n2023年6月", "关于");
         }
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
         {
